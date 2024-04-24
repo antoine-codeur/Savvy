@@ -1,0 +1,48 @@
+./
+    README.md
+    .gitignore
+app/
+    helper.php
+    http/
+        middleware/
+            RoleMiddleware.php
+        controller/
+            HomeController.php
+            ProfileController.php
+            AppController.php
+resources/
+    views/
+        home.php
+        error.php
+        components/
+            header.php
+            footer.php
+            navigation.php
+            carousel/
+        templates/
+            contact/
+            homepage/
+            portfolio/
+        pages/
+            projets.php
+        partials/
+            app.php
+            guest.php
+            testimonials/
+            presentation/
+public/
+    index.php
+    .htaccess
+    assets/
+        css/
+            style.css
+        images/
+        js/
+        themes/
+            emerald.css
+            dark.css
+            ruby.css
+            light.css
+            saphir.css
+routes/
+    web.php

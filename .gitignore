@@ -1,0 +1,37 @@
+# Exclude sensitive files
+.env
+
+# Exclude system files
+.DS_Store
+Thumbs.db
+
+# Exclude IDE files
+.idea/
+.vscode/
+
+# Exclude build files
+/build/
+
+# Exclude vendor dependencies (for PHP projects)
+/vendor/
+
+# Exclude node_modules (for JavaScript projects)
+/node_modules/
+
+# Exclude compiled assets (for CSS/JS preprocessors)
+/public/assets/*
+
+# Exclude logs and temp files
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/bootstrap/cache/
+
+# Exclude database files
+/database/*.sqlite
+/database/*.sqlite3
+
+# Exclude user-uploaded files
+/public/uploads/
