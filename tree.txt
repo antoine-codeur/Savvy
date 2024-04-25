@@ -3,31 +3,41 @@
     .gitignore
 app/
     helper.php
+    config/
+        database.php
     http/
-        middleware/
+        Middleware/
             AuthMiddleware.php
-        controller/
+        Controllers/
             HomeController.php
-            ProfileController.php
             AppController.php
+        routes/
+            web.php
 resources/
     views/
-        home.php
         error.php
+        auth/
+        projects/
         components/
             header.php
             footer.php
             navigation.php
+            form/
+                contact_form.php
             carousel/
+        layouts/
+            app.php
+            guest.php
+        users/
         templates/
             contact/
             homepage/
             portfolio/
         pages/
             projets.php
+            home.php
+            contact.php
         partials/
-            app.php
-            guest.php
             testimonials/
             presentation/
 public/
@@ -44,5 +54,3 @@ public/
             ruby.css
             light.css
             saphir.css
-routes/
-    web.php

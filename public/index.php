@@ -17,7 +17,7 @@ switch ($route) {
         echo '<link rel="stylesheet" href="/assets/themes/dark.css">';
         echo '<link rel="stylesheet" href="/assets/css/style.css">';
         // Chargez la page d'accueil par défaut en utilisant guest.php
-        require_once __DIR__ . '/../resources/views/partials/guest.php';
+        require_once __DIR__ . '/../resources/views/layouts/guest.php';
         break;
     // Autres cas de routage
     default:
